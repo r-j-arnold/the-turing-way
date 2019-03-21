@@ -832,7 +832,7 @@ Other commands that are sometimes used in Dockerfiles include:
 
 As mentioned in the [key commands](#Key_commands) section, to build an image open a terminal in the same directory as the Dockerfile to be used and run
 ```
-sudo docker build tag=name_to_give_image .
+sudo docker build --tag=name_to_give_image .
 ```
 
 When an image is built everything in the Dockerfile's directory and below (this is called the "context") is sent to the Docker daemon to build the image. The deamon uses the Dockerfile and its context to build the image. If the context contains many large files which aren't needed for building the image (old datafiles, for example) then it is a waste of time sending them to the daemon, and doing do can make the process of building an image slow. Files can be excluded from the context by listing them in a text file called .dockerignore, and it is good practise to do so.
