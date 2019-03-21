@@ -688,7 +688,7 @@ Here are a few key commands for creating and working with containers.
 
 - To build an image from a Dockerfile go to the directory where the Dockerfile is and run:
   ```
-  sudo docker build tag=name_to_give_image .
+  sudo docker build --tag=name_to_give_image .
   ```
 - To list the images on your system use
   ```
