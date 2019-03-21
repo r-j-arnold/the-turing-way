@@ -866,7 +866,7 @@ To do this Alice must:
   ```
   sudo docker tag image_name username_Alice/image_name:version_1
   ```
-- Push the image to her DockerHub account using  `sudo docker push username_Alice/image_name:version_1`
+- Push the image to her DockerHub account using  `sudo docker tag push username_Alice/image_name:version_1`
 - Alice's image is now online and can be downloaded. Over to Bob...
 
 Bob (assuming he already has Docker installed) can open a container from Alice's image simply by running
