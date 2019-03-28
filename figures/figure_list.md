@@ -19,6 +19,5 @@
 | sub_branch                 | Version control      | Illustrates version control branch + sub branch   |
 | testing_motivation_1       | Testing              | Example of consequence of not testing code        |
 | testing_motivation_2       | Testing              | Example of consequence of not testing code        |
-| testing_motivation_3       | Testing              | Example of consequence of not testing code        |
 | two_banches                | Version control      | Illustrates version control master + two branches |
 | wtf_per_min.jpg            | Version control      | Good quality code = few wtf per min               |
